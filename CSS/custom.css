@@ -1,26 +1,25 @@
-#Header-row{
-    background-color: black;
-    padding:10px;
+/*********************************CONTAINER-CONTROLS*************************/
+
+.container-fullwidth{
+    text-align :center;
 }
 
-#Header-row-second{
-    background-color: whitesmoke;
-}
-#Header-row-second-list li{
-    color:black;
-    line-height: 8em;
-    cursor: pointer;
+html,body{
+    width: 100%;
+    height:100%;
+    margin:auto;
+    overflow-x: hidden;/**(Removes the Horizontal scrollbar)**/
 }
 
-#Header-row-third{
-    background-color: rgb(240, 240, 240);
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+/**************************************************************************/
 
-#Header-row-fourth{
-    background-color:white;
-}
+
+
+/******************************************************************INDEX-PAGE-CONTROLS*****************************************************************/
+
+
+
+/*****************************COMMON-LIST-CONTROLS***************************/
 
 ul{ 
     overflow: hidden;
@@ -33,93 +32,11 @@ ul li{
     color:white;
 }
 
-.fa-instagram{
-    color:white;
-    cursor: pointer;
-}
-.fa-facebook{
-    color:white;
-    cursor: pointer;
-}
-.fa-linkedin{
-    color:white;
-    cursor: pointer;
-}
-.fa-twitter{
-    color:white;
-    cursor: pointer;
-}
-.fa-google{
-    color:white;
-    cursor: pointer;
-}
-.fa-phone{
-    color:whitesmoke;
-    cursor: pointer;
-}
-.fa-envelope{
-    color:white;
-    cursor: pointer;
-}
-.fa-map-marker{
-    color:green;
-    cursor: pointer;
-}
+/***********************************************************************/
 
-#first{
-    display: flex;
-    justify-content: flex-start;
-    margin-top:auto;
-}
 
-#second{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
-}
 
-.img-responsive{
-    position: relative;
-}
-
-.formm{
-    position: absolute;
-    color:white; 
-    top:25%; 
-    left:380px; 
-    width:50%;
-    height:40%;
-
-}
-
-.formm .form-control{
-    font-size: 25px;
-    height:60.25px;
-    border:none;
-    background-color: rgba(255, 255, 255, 0.8);
-    border:none;
-    color:black;
-    visibility: visible;
-}
-
-.glyphicon-search{
-    height:45px;
-    font-size: 20px;
-    padding:10px;
-    color:green;
-    height:47px;
-    
-}
-
-.btn-default{
-    background-color:rgba(255,255,255,0.5);
-    border:none;
-    height:60.5px;
-}
-
-.container-fullwidth{
-    text-align :center;
-}
+/*****************************COMMON-CONTROLS-FOR-HEADINGS-IN-EACH-DIV*******************************/
 
 .centered {
     position: absolute;
@@ -163,10 +80,143 @@ ul li{
     text-transform: none;;
 }
 
+/*************************************************************************************************/
+
+
+
+/******************************HEADER-ROW-1***************************/
+
+#Header-row{
+    background-color: black;
+    padding:10px;
+}
+
+.fa-phone{
+    color:whitesmoke;
+    cursor: pointer;
+}
+.fa-envelope{
+    color:white;
+    cursor: pointer;
+}
+.fa-instagram{
+    color:white;
+    cursor: pointer;
+}
+.fa-facebook{
+    color:white;
+    cursor: pointer;
+}
+.fa-linkedin{
+    color:white;
+    cursor: pointer;
+}
+.fa-twitter{
+    color:white;
+    cursor: pointer;
+}
+.fa-google{
+    color:white;
+    cursor: pointer;
+}
+
+/********************************************************************/
+
+
+
+/**********************HEADER-ROW-2(NAVBAR)**************************/
+
+#Header-row-second{
+    background-color: whitesmoke;
+}
+
+#Header-row-second-list li{
+    color:black;
+    line-height: 8em;
+    cursor: pointer;
+}
+
+.fa-map-marker{
+    color:green;
+    cursor: pointer;
+}
+
+#first{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:auto;
+}
+
+#second{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+/********************************************************************/
+
+
+
+/*************************HEADER-ROW-3(IMAGE)********************************/
+
+#Header-row-third{
+    background-color: rgb(240, 240, 240);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-responsive{
+    position: relative;
+}
 
 .img-responsive{
     max-height: 500px;
     width:100%;;
+}
+
+.formm{
+    position: absolute;
+    color:white; 
+    top:25%; 
+    left:380px; 
+    width:50%;
+    height:40%;
+
+}
+
+.formm .form-control{
+    font-size: 25px;
+    height:60.25px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border:none;
+    color:black;
+    visibility: visible;
+}
+
+.glyphicon-search{
+    height:45px;
+    font-size: 20px;
+    padding:10px;
+    color:green;
+    height:47px;
+    
+}
+
+.btn-default{
+    background-color:rgba(255,255,255,0.5);
+    border:none;
+    height:60.5px;
+}
+
+/***********************************************************************/
+
+
+
+/*****************************HEADER-ROW-4******************************/
+
+#Header-row-fourth{
+    background-color:white;
 }
 
 .thumbnail{
@@ -180,8 +230,11 @@ ul li{
     justify-content: space-around;
 }
 
+/***********************************************************************/
 
-/**************Footer**********************/
+
+
+/************************************FOOTER**********************************/
 
 #myFooter {
 	background-color: #222222;
@@ -228,7 +281,139 @@ ul li{
     transition: 0.2s;
 }
 
+/*******************************************************************************************/
 
+
+
+/***********************************************************************SEARCH-PAGE-CONTROLS******************************************************************/
+
+
+
+/************************SEARCH-CONTROLS*************************/
+
+
+
+#imaginary_container-2{
+    padding-top:50px; /* Don't copy this */
+    display: inline-box;
+    padding-left:50px;
+    
+}
+
+#imaginary_container-3{
+    padding-top:50px; /* Don't copy this */
+    display: inline-box;
+    background:black; 
+    
+}
+
+.formm2{
+    padding-top: 50px;
+    display: inline-block;
+    padding-right: 160px;
+    padding-bottom:20px;
+    width:180%;
+    height:60%;
+    font-size: 20px;
+    
+
+
+}
+
+.formm2 .form-control{
+    font-size: 20px;
+    height:30px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border:gray;
+    color:black;
+    visibility: visible;
+    margin-inline-start:50px; 
+}
+
+.btn-primary{
+    width:100%;
+}
+
+
+.card-body{
+    width:100%;
+}
+
+/***************************************************************/
+
+
+/***************************CUSTOM-CENTERED-CONTROLS********************/
+
+.centered-search-page-heading{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    line-height: 29px;
+    text-transform: none;
+    font-weight:800;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/**********************************************************************/
+
+
+
+.breadcrumb > li + li:before {
+    color: blue;
+    content: "> ";
+    padding: 0 5px;
+}
+
+.page-header{
+    color:black;
+    font-size: 20px;
+}
+
+/**.list-group-flush{
+    display:flex;
+    flex-direction: column;
+}
+
+.list-group-flush li{
+    color:green;
+    border:none;
+    justify-content: flex-start
+}**/
+
+.list-group-flush li{
+    color:green;
+    border:none;
+}
+
+.list-group-flush{
+    height:140px;/*********Cardboard-height-for-Property-types**********/
+    border:none;
+    padding:10px;
+}
+
+.badge-light{
+    float:right;
+}
+
+#main-badge{
+    border-radius:0px;
+    background-color: black
+}
+
+#main-description{
+    font-weight: bold;
+    color: #222222;
+}
+
+.fa-user{
+    color:grey;
+    padding:2px;
+}
 
 
 
