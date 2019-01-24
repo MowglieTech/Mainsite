@@ -147,6 +147,13 @@ ul li{
     margin-top:auto;
 }
 
+#row-2-dropdown{
+    width:250px !important;
+    height:110px !important;
+    padding:10px !important;
+
+}
+
 #second{
     display: flex;
     justify-content: flex-end;
