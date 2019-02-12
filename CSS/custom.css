@@ -88,7 +88,7 @@ ul li{
 
 #Header-row{
     background-color: black;
-    padding:10px;
+    padding-top:10px;
 }
 
 .fa-phone{
@@ -472,6 +472,33 @@ ul li{
     color:grey;
     padding:2px;
 }
+/***************************ABOUT-US-PAGE**************************/
 
+.centered-back {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: none;;
+    color:white;
+    font-weight:bold;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
 
-
+  .centered-heading-about{
+    position:relative;
+    top: 50%;
+    left: 50%;
+    padding-top: 150px;
+    transform: translate(-50%, -50%);
+    color:black;
+    
+    font-family:Raleway;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: none;;
+    font-weight: 700;
+}
