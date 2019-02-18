@@ -88,7 +88,7 @@ ul li{
 
 #Header-row{
     background-color: black;
-    padding:10px;
+    padding-top:10px;
 }
 
 .fa-phone{
@@ -147,6 +147,14 @@ ul li{
     margin-top:auto;
 }
 
+#row-2-dropdown{
+    width:250px !important;
+    height:110px !important;
+    padding:10px !important;
+
+}
+
+
 #second{
     display: flex;
     justify-content: flex-end;
@@ -192,7 +200,10 @@ ul li{
     border:none;
     color:black;
     visibility: visible;
-}
+}****/
+
+/****New******/
+
 
 .glyphicon-search{
     height:45px;
@@ -210,6 +221,44 @@ ul li{
 }
 
 /***********************************************************************/
+
+/**************************NEW-ROW********************************/
+
+.bg-image {
+    /* The image used */
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+/*******************************************************************/
 
 
 
@@ -230,6 +279,15 @@ ul li{
     justify-content: space-around;
 }
 
+/**
+#circle{
+    display: block;
+    border-radius: 50%;
+    background-color:white;
+    padding: 50px;
+    
+}
+**/
 /***********************************************************************/
 
 
@@ -414,6 +472,33 @@ ul li{
     color:grey;
     padding:2px;
 }
+/***************************ABOUT-US-PAGE**************************/
 
+.centered-back {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: none;;
+    color:white;
+    font-weight:bold;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
 
-
+  .centered-heading-about{
+    position:relative;
+    top: 50%;
+    left: 50%;
+    padding-top: 150px;
+    transform: translate(-50%, -50%);
+    color:black;
+    
+    font-family:Raleway;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: none;;
+    font-weight: 700;
+}
